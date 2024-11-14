@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why MongoDB?</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .poster-container {
+            width: 90%;
+            max-width: 1000px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .poster-header {
+            font-size: 50px;
+            color: #4CAF50;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .poster-subheader {
+            font-size: 22px;
+            color: #333;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+        .poster-body {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .feature {
+            width: 30%;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .cta-button {
+            background-color: #ff5722;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 30px;
+        }
+        .cta-button:hover {
+            background-color: #ff784e;
+        }
+        .footer {
+            font-size: 14px;
+            color: #777;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .graphics {
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            width: 200px;
+            height: auto;
+            opacity: 0.2;
+            z-index: -1;
+        }
+        .graphics img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poster-container">
+    <div class="poster-header">
+        The Power of MongoDB
+    </div>
+    <div class="poster-subheader">
+        Discover the benefits of using a NoSQL database
+    </div>
+    <div class="poster-body">
+        <p>MongoDB is a modern, flexible, and scalable NoSQL database that has revolutionized the way we store and manage data. It's perfect for handling unstructured data, large-scale applications, and real-time analytics.</p>
+        <p>Why choose MongoDB?</p>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <div class="feature">
+            <h3>Scalable & Flexible</h3>
+            <p>MongoDB is designed for horizontal scalability, allowing your application to grow effortlessly with your data. Whether you're working with small projects or large-scale systems, MongoDB can adapt to your needs.</p>
+        </div>
+        <div class="feature">
+            <h3>Schema-less Data Model</h3>
+            <p>With MongoDB, you don't need to worry about complex database schemas. Its flexible document model allows you to store varied data types easily, and you can change the structure without downtime.</p>
+        </div>
+        <div class="feature">
+            <h3>High Performance</h3>
+            <p>MongoDB is designed for high performance with powerful indexing and query optimization. It's ideal for applications that require fast data retrieval, including real-time analytics and big data processing.</p>
+        </div>
+    </div>
+
+    <!-- Call to Action Button -->
+    <button class="cta-button">Start Using MongoDB Today!</button>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>MongoDB – The future of data storage and management</p>
+    </div>
+
+    <!-- Graphic (MongoDB logo) -->
+    <div class="graphics">
+        <img src="https://www.mongodb.com/_next/static/images/mongodb-logo-full-color-2x-0d4f8ca8b1b9aabf1d8a39d15d9b1c38.png" alt="MongoDB Logo">
+    </div>
+</div>
+
+</body>
+</html>
